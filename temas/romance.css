@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Pixelify Sans", sans-serif;
+  background-image: url(../img/fundo.png);
+ padding: 2%;
+}
+
+#tudo {
+    background-color: #e65447;
+}
+
+
+.colunaLivros {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff1f8;
+  border: 2px solid #b11628;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0px #5c0c15;
+  margin: 3%;
+}
+
+.colunaLivros img {
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.infoLivro {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
